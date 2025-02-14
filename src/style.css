@@ -1,0 +1,83 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: normal;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #3f5a74;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.row-container {
+  
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.inputContainer {
+  margin: 20px auto;
+  text-align: center;
+}
+
+input {
+  padding: 15px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.425);
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.droppable {
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 900px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(0, 183, 255, 0.336);
+  width: auto;
+  height: 150px;
+}
+
+#container-elementos {
+  gap: 16px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.draggable {
+  color: white;
+  background-color: rgba(160, 150, 150, 0.596);
+  width: 150px;
+  min-width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid white;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
